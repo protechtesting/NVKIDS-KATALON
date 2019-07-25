@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="PARM" time="16" tests="1" failures="0" errors="0">
+    <testsuite name="PARM" tests="1" failures="0" errors="0" time="16" timestamp="2019-07-18 04:51:27" hostname="snadanasigamani - ProDCWS-13" id="Test Suites/PARM">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\snadanasigamani\\Katalon Studio\\NVKIDSS\\Reports\\PARM\\20190718_045114"/>
+            <property name="logFiles" value="C:\\Users\\snadanasigamani\\Katalon Studio\\NVKIDSS\\Reports\\PARM\\20190718_045114\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="snadanasigamani - ProDCWS-13"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.2.1.2"/>
+            <property name="browser" value="Chrome 75.0.3770.142"/>
+            <property name="hostAddress" value="192.168.111.183"/>
+            <property name="sessionId" value="8b2ee264006bf6e1f473acc947534420"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/PARM/TC_01_ValidateSearchResult" classname="Test Cases/PARM/TC_01_ValidateSearchResult" status="PASSED">
+            <system-out>2019-07-18 04:51:27 - [TEST_CASE][PASSED] - Test Cases/PARM/TC_01_ValidateSearchResult: Test Cases/PARM/TC_01_ValidateSearchResult&#xD;
+&#xD;
+2019-07-18 04:51:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-07-18 04:51:27 - [MESSAGE][INFO] - Starting 'Chrome' driver&#xD;
+&#xD;
+2019-07-18 04:51:28 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-07-18 04:51:34 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-07-18 04:51:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized&#xD;
+&#xD;
+2019-07-18 04:51:38 - [MESSAGE][PASSED] - Current window maximized&#xD;
+&#xD;
+2019-07-18 04:51:38 - [TEST_STEP][PASSED] - navigateToUrl("http://10.50.120.22:81/nvkids/#/tools/maintanance/parm/view"): Navigate to 'http://10.50.120.22:81/nvkids/#/tools/maintanance/parm/view' successfully&#xD;
+&#xD;
+2019-07-18 04:51:38 - [MESSAGE][PASSED] - Navigate to 'http://10.50.120.22:81/nvkids/#/tools/maintanance/parm/view' successfully&#xD;
+&#xD;
+2019-07-18 04:51:38 - [TEST_STEP][PASSED] - click(findTestObject("PARM/PARMSearch/ExpandFilter")): Object: 'Object Repository/PARM/PARMSearch/ExpandFilter' is clicked on&#xD;
+&#xD;
+2019-07-18 04:51:39 - [MESSAGE][PASSED] - Object: 'Object Repository/PARM/PARMSearch/ExpandFilter' is clicked on&#xD;
+&#xD;
+2019-07-18 04:51:39 - [TEST_STEP][PASSED] - click(findTestObject("PARM/PARMSearch/ClickJobLOV")): Object: 'Object Repository/PARM/PARMSearch/ClickJobLOV' is clicked on&#xD;
+&#xD;
+2019-07-18 04:51:39 - [MESSAGE][PASSED] - Object: 'Object Repository/PARM/PARMSearch/ClickJobLOV' is clicked on&#xD;
+&#xD;
+2019-07-18 04:51:39 - [TEST_STEP][PASSED] - setText(findTestObject("PARM/PARMSearch/TypeJOB"), "nvb0014"): Text 'nvb0014' is set on object 'Object Repository/PARM/PARMSearch/TypeJOB'&#xD;
+&#xD;
+2019-07-18 04:51:39 - [MESSAGE][PASSED] - Text 'nvb0014' is set on object 'Object Repository/PARM/PARMSearch/TypeJOB'&#xD;
+&#xD;
+2019-07-18 04:51:39 - [TEST_STEP][PASSED] - click(findTestObject("PARM/PARMSearch/ClickSeachJOBLOV")): Object: 'Object Repository/PARM/PARMSearch/ClickSeachJOBLOV' is clicked on&#xD;
+&#xD;
+2019-07-18 04:51:39 - [MESSAGE][PASSED] - Object: 'Object Repository/PARM/PARMSearch/ClickSeachJOBLOV' is clicked on&#xD;
+&#xD;
+2019-07-18 04:51:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)&#xD;
+&#xD;
+2019-07-18 04:51:41 - [MESSAGE][PASSED] - Delayed 2 second(s)&#xD;
+&#xD;
+2019-07-18 04:51:41 - [TEST_STEP][PASSED] - click(findTestObject("PARM/PARMSearch/ClickData")): Object: 'Object Repository/PARM/PARMSearch/ClickData' is clicked on&#xD;
+&#xD;
+2019-07-18 04:51:41 - [MESSAGE][PASSED] - Object: 'Object Repository/PARM/PARMSearch/ClickData' is clicked on&#xD;
+&#xD;
+2019-07-18 04:51:41 - [TEST_STEP][PASSED] - click(findTestObject("PARM/PARMSearch/ClickOkLOV")): Object: 'Object Repository/PARM/PARMSearch/ClickOkLOV' is clicked on&#xD;
+&#xD;
+2019-07-18 04:51:41 - [MESSAGE][PASSED] - Object: 'Object Repository/PARM/PARMSearch/ClickOkLOV' is clicked on&#xD;
+&#xD;
+2019-07-18 04:51:41 - [TEST_STEP][PASSED] - click(findTestObject("PARM/PARMSearch/FilterSearch")): Object: 'Object Repository/PARM/PARMSearch/FilterSearch' is clicked on&#xD;
+&#xD;
+2019-07-18 04:51:42 - [MESSAGE][PASSED] - Object: 'Object Repository/PARM/PARMSearch/FilterSearch' is clicked on&#xD;
+&#xD;
+2019-07-18 04:51:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)&#xD;
+&#xD;
+2019-07-18 04:51:44 - [MESSAGE][PASSED] - Delayed 2 second(s)&#xD;
+&#xD;
+2019-07-18 04:51:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("PARM/PARMSearch/SearchResult"), "NVB0014"): Actual text and expected text of test object 'Object Repository/PARM/PARMSearch/SearchResult' are matched.&#xD;
+&#xD;
+2019-07-18 04:51:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/PARM/PARMSearch/SearchResult' are matched.</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-07-18 04:51:27 - [TEST_SUITE][INCOMPLETE] - PARM: null</system-out>
+        <system-err>2019-07-18 04:51:27 - [TEST_SUITE][INCOMPLETE] - PARM: null</system-err>
+    </testsuite>
+</testsuites>

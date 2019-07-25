@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PARM,Chrome 75.0.3770.142,,,2019-07-18 05:40:24,2019-07-18 05:40:40,15.967s,INCOMPLETE
+,,,,,,,
+Test Cases/PARM/TC_01_ValidateSearchResult,Chrome 75.0.3770.142,,,2019-07-18 05:40:24,2019-07-18 05:40:40,15.717s,FAILED
+"openBrowser("""")",Chrome 75.0.3770.142,,,2019-07-18 05:40:24,2019-07-18 05:40:31,6.424s,PASSED
+maximizeWindow(),Chrome 75.0.3770.142,,,2019-07-18 05:40:31,2019-07-18 05:40:33,2.146s,PASSED
+"navigateToUrl(""http://10.50.120.22:81/nvkids/#/tools/maintanance/parm/view"")",Chrome 75.0.3770.142,,,2019-07-18 05:40:33,2019-07-18 05:40:33,0.463s,PASSED
+"click(findTestObject(""PARM/PARMSearch/ExpandFilter""))",Chrome 75.0.3770.142,,,2019-07-18 05:40:33,2019-07-18 05:40:34,0.738s,PASSED
+"click(findTestObject(""PARM/PARMSearch/ClickJobLOV""))",Chrome 75.0.3770.142,,,2019-07-18 05:40:34,2019-07-18 05:40:34,0.101s,PASSED
+"setText(findTestObject(""PARM/PARMSearch/TypeJOB""), ""nvb0014"")",Chrome 75.0.3770.142,,,2019-07-18 05:40:34,2019-07-18 05:40:35,0.254s,PASSED
+"click(findTestObject(""PARM/PARMSearch/ClickSeachJOBLOV""))",Chrome 75.0.3770.142,,,2019-07-18 05:40:35,2019-07-18 05:40:35,0.086s,PASSED
+delay(2),Chrome 75.0.3770.142,,,2019-07-18 05:40:35,2019-07-18 05:40:37,2.037s,PASSED
+"click(findTestObject(""PARM/PARMSearch/ClickData""))",Chrome 75.0.3770.142,,,2019-07-18 05:40:37,2019-07-18 05:40:37,0.078s,PASSED
+"click(findTestObject(""PARM/PARMSearch/ClickOkLOV""))",Chrome 75.0.3770.142,,,2019-07-18 05:40:37,2019-07-18 05:40:37,0.098s,PASSED
+"click(findTestObject(""PARM/PARMSearch/FilterSearch""))",Chrome 75.0.3770.142,,,2019-07-18 05:40:37,2019-07-18 05:40:37,0.099s,PASSED
+delay(2),Chrome 75.0.3770.142,,,2019-07-18 05:40:37,2019-07-18 05:40:39,2.002s,PASSED
+"verifyElementText(findTestObject(""PARM/PARMSearch/SearchResult""), ""NVB0014"")",Chrome 75.0.3770.142,,,2019-07-18 05:40:39,2019-07-18 05:40:39,0.097s,PASSED
+acceptAlert(),Chrome 75.0.3770.142,,,2019-07-18 05:40:39,2019-07-18 05:40:40,0.848s,FAILED
